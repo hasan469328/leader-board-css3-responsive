@@ -188,3 +188,47 @@ border-radius: 14.6913px;
 width:80px;
 text-align: center;
 }
+
+/* responsive for smaller and medium device  */
+@media screen and (max-width:745px) {
+  /* header  */
+  .header {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 0 0 10px 10px;
+}
+.top-players {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 0 10px 30px;
+}
+.players-title {
+  padding: 30px 0 20px 10px;
+}
+.blogs-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 46px;
+  grid-row-gap: 26px;
+  padding: 0 10px 42px 10px;
+}
+.blog-title {
+  font-weight: 500;
+  font-size: 17px;
+}
+.course-wrapper {
+  grid-template-columns: 1fr;
+  padding: 0 10px 42px 10px;
+  row-gap: 20px;
+}
+.course-title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #1E1E1E;
+}
+}
+
